@@ -34,3 +34,13 @@ while a > 0 or a < 0:
     s+=a
     a = int(input())
 print(s)
+
+
+--- бесклнечный цикл по условиям
+while True:
+     a = int(input())
+     if a<10:
+        continue
+     elif a >100:
+        break
+     print(a)
