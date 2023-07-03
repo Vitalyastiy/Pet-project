@@ -1,3 +1,11 @@
+-- найти элемент массива циклом
+n = 6
+arr = [2, 3, 6, 6, 5]
+cnt = 0
+for i in range(len(arr)):
+   if arr[i] == n: 
+     print(i+1)
+
 --условия + условие в диапазоне
 if n%2 != 0: 
     print("Weird") 
