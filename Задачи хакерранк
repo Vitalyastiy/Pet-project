@@ -15,3 +15,12 @@ elif n%2==0 and n in range(6,21):
     print ("Weird") 
 elif n>20 and n%2==0: 
     print("Not Weird")
+
+
+--- пример вайла(пока не выпадет 0)
+a = int(input())
+s=0
+while a > 0 or a < 0:
+    s+=a
+    a = int(input())
+print(s)
